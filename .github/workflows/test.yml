@@ -3,6 +3,7 @@ on:
   push:
     branches:
       - master
+      - citest
   pull_request:
 
 defaults:

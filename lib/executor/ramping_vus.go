@@ -16,6 +16,8 @@ import (
 	"go.k6.io/k6/ui/pb"
 )
 
+// RampingVUsExecutor is an executor that ramps up the number of VUs over time
+
 const rampingVUsType = "ramping-vus"
 
 func init() {
